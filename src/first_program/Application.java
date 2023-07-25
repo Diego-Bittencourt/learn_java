@@ -27,7 +27,12 @@ public class Application {
 		//double stores longer fractional numbers until 15 digits
 		double myDouble = 6.1234567890;
 		
-		//
+		//boolean, self explanatory
+		boolean myBoolean = true;
+
+		//char stores a 2 bytes size character
+		//must use single quotes
+		char myChar = 'a';
 		
 		//the console.log() in Java
 		System.out.println(myByte);
@@ -36,6 +41,8 @@ public class Application {
 		System.out.println(myLong);
 		System.out.println(myFloat);
 		System.out.println(myDouble);
+		System.out.println(myBoolean);
+		System.out.println(myChar);
 		
 		
 		 
