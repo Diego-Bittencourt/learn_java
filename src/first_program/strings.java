@@ -1,6 +1,6 @@
 package first_program;
 
-public class Application2 {
+public class strings {
 
 	
 	//every application in Java must have a main method where the application starts

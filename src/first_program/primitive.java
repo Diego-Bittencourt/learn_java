@@ -1,6 +1,6 @@
 package first_program;
 
-public class Application {
+public class primitive {
 
 	public static void main(String[] args) {
 		

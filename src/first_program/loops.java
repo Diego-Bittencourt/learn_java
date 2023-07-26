@@ -1,6 +1,6 @@
 package first_program;
 
-public class Application3 {
+public class loops {
   
 
 	public static void main(String[] args) {
