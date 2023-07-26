@@ -1,50 +1,27 @@
 package first_program;
 
-public class Application {
+public class Application2 {
 
+	
+	//every application in Java must have a main method where the application starts
+	
 	public static void main(String[] args) {
 		
-		//Number variables in java
-		//Java has quite a variety of number variables.
+		int myInt = 7;
 		
-		//byte are small numbers (1 byte size) from -128 to 127
-		byte myByte = 1;
+		//string is not a primitive type therefore S is capital
+		String text = "Hello";
 		
-		//short are 2 bytes size numbers from  -32,768 to 32,767
-		short myShort = 10000;
+		String blank = " ";
+			
+		String name = "Bob";	
 		
-		//int are 4 bytes size numbers from -2,147,483,648 to 2,147,483,647
-		int myInt = 1234567890;
+		//to concatenate strings, can use the + operator
+		String greeting = text + blank + name;
 		
-		//long are bigger numbers, 8 bytes size from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
-		//dont forget to add the L at the end
-		long myLong = 12345678912345L;
+		System.out.println(greeting);
 		
-		//float store fractional numbers until 6 or 7 digits
-		//dont forget to add the f at the end
-		float myFloat = 2.123456f;
-		
-		//double stores longer fractional numbers until 15 digits
-		double myDouble = 6.1234567890;
-		
-		//boolean, self explanatory
-		boolean myBoolean = true;
-
-		//char stores a 2 bytes size character
-		//must use single quotes
-		char myChar = 'a';
-		
-		//the console.log() in Java
-		System.out.println(myByte);
-		System.out.println(myShort);
-		System.out.println(myInt);
-		System.out.println(myLong);
-		System.out.println(myFloat);
-		System.out.println(myDouble);
-		System.out.println(myBoolean);
-		System.out.println(myChar);
-		
-		
-		 
+		//when using the + operator between an int and a string, they concatenate
+		System.out.println("1" + myInt);
 	}
-	}
+}
