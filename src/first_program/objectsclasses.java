@@ -7,6 +7,11 @@ class Person {
     //data or state
     String name;
     int age;
+
+    //method
+    void speak() {
+        System.out.println("My name is " + name + " and I am " + age + " years old.");
+    };
 }
 
 
@@ -21,11 +26,13 @@ public class objectsclasses {
         Person joana = new Person();
         joana.age = 27;
         joana.name = "Joana da Silva";
+        joana.speak();
 
 
         Person joilson = new Person();
         joilson.name = "Joilson da Silva";
         joilson.age = 19;
+        joilson.speak();
 
     }
 }
